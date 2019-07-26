@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS reset*/
+body,div,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,select,p,blockquote,th,td { margin: 0; padding: 0;}
+table { border-collapse: collapse; border-spacing: 0;}
+main { display: block;}
+fieldset,img { border: 0;}
+ol,ul { list-style: none;}
+caption,th { text-align: center;}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal;}
+q:before,q:after { content: '';}
+abbr,acronym { border: 0;}
+input,a,select,textarea { outline: none;}
+a { text-decoration: none; color: #00acee;}
+a:hover { text-decoration: underline;}
+.bBox { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+
+/*解决如果外部有一个div容器，其内部div容器设置了float样式，则外部的容器div因为内部没有clear，导致不能撑开*/
+.clearfix:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix { display: inline-block;}
+/* Hides from IE-mac */ 
+*html .clearfix { height:1%; }
+.clearfix { display:block; }
+/* End hide from IE-mac */
+
+/*通用*/
+html { -webkit-tap-highlight-color: transparent;}
+html,body { height: 100%;}
+body { position: relative; background: #68cdd5; color: #313131;}
+body,input,select,textarea { font: 14px/1.5 tahoma,arial,\5FAE\8F6F\96C5\9ED1; font-size: 62.5%;}
+/*通用*/
+
+.topNav { position: absolute; top: 20px; left: 30px; display: inline-block;}
+.topNav img { display: block; height: 30px;}
+
+.headLogo { padding: 90px 30px;}
+.headLogo img { display: block; margin: 0 auto; height: 45px;}
+
+.main { padding: 0 15%; margin: 0 0 80px;}
+.main p { font-size: 16px; font-size: 1.6em; color: #FFF; line-height: 1.8;}
+
+.mainNav { padding: 30px 15%;}
+.mainNav > div { display: inline-block; width: 100px;}
+.mainNav .mainNavLeft { float: left;}
+.mainNav .mainNavRight { float: right;}
+.mainNav > div div { text-align: center; font-size: 0; margin-bottom: 10px;}
+.mainNav > div img { display: inline-block; height: 54px;}
+.mainNav > div p { text-align: center; font-size: 16px; font-size: 1.6em; color: #FFF;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
