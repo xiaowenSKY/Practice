@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS reset*/
+body,div,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,select,p,blockquote,th,td { margin: 0; padding: 0;}
+table { border-collapse: collapse; border-spacing: 0;}
+main { display: block;}
+fieldset,img { border: 0;}
+ol,ul { list-style: none;}
+caption,th { text-align: center;}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal;}
+q:before,q:after { content: '';}
+abbr,acronym { border: 0;}
+input,a,select,textarea { outline: none;}
+a { text-decoration: none; color: #00acee;}
+a:hover { text-decoration: none; cursor: pointer;}
+.bBox { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+
+/*解决如果外部有一个div容器，其内部div容器设置了float样式，则外部的容器div因为内部没有clear，导致不能撑开*/
+.clearfix:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix { display: inline-block;}
+/* Hides from IE-mac */ 
+*html .clearfix { height:1%; }
+.clearfix { display:block; }
+/* End hide from IE-mac */
+
+/*通用*/
+html { -webkit-tap-highlight-color: transparent;}
+html,body { height: 100%;}
+body { position: relative; background-color: #eff0f4; color: #313131;}
+body,input,select,textarea { font: 14px/1.5 tahoma,arial,\5FAE\8F6F\96C5\9ED1; font-size: 62.5%;}
+/*通用*/
+
+header { position: fixed; left: 0; top: 0; right: 0; z-index: 10000; height: 44px; background-color: #5fc0cd; color: #FFF;}
+header .headTit { padding: 0 44px; height: 44px; line-height: 44px; text-align: center; font-size: 1.125rem;}
+header .headBut { position: absolute; top: 0; display: inline-block; padding: 0 15px; height: 44px; line-height: 44px; font-size: 1rem; color: #FFF;}
+header .headBut:hover { background-color: #58b3bf;}
+header .headBut:active { background-color: #52a7b3;}
+header .headLeft { left: 0;}
+header .headRight { right: 0;}
+
+main { padding-top: 44px;}
+.enterFrom { padding-top: 10px;}
+.enterText { position: relative; padding-left: 60px; height: 50px; background-color: #FFF;}
+.enterText + .enterText { margin-top: 10px;}
+.enterText > lable { position: absolute; top: 0; left: 0; display: inline-block; width: 60px; height: 50px; background-size: 50%;}
+.enterText > lable:after { position: absolute; top: 12px; right: 0; bottom: 12px; content: ''; width: 1px; background-color: #eaedee;}
+.inpMob { background: url(../images/icon_phone.png) no-repeat center center;}
+.inpPas { background: url(../images/icon_password.png) no-repeat center center;}
+.enterText > input { padding: 0 15px; width: 100%; height: 50px; line-height: 50px; border: 0; font-size: 1rem;}
+input::-webkit-input-placeholder{ color: #e1e5e7;}
+.enterBut { display: block; margin-top: 30px; height: 50px; line-height: 50px; text-align: center; font-size: 1rem; color: #FFF; background-color: #5fc0cd;}
+.enterBut:hover { background-color: #58b3bf;}
+.enterBut:active { background-color: #52a7b3;}
+.forgetPas { padding: 0 15px; line-height: 2; text-align: right; font-size: 0.875rem;}
+.forgetPas a { color: #5fc0cd;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
